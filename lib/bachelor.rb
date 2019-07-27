@@ -3,10 +3,7 @@ require 'pry'
 def get_first_name_of_season_winner(data, season)
   data[season].each do |hash|
     hash.each do |detail, info|
-      if detail == "Winner"
-      binding.pry
-      detail["name"].split(" ")[0]
-      end
+      
     end
   end
 end
