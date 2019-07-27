@@ -3,7 +3,7 @@ require 'pry'
 def get_first_name_of_season_winner(data, season)
   data[season].each do |hash|
     hash.each do |detail, info|
-      
+      binding.pruy
     end
   end
 end
