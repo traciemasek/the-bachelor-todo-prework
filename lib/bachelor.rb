@@ -5,7 +5,7 @@ def get_first_name_of_season_winner(data, season)
     if season_num == season
       contestants.each do |info, details|
         if info[:status] == "Winner"
-          return info[:name]
+          return info[:name].split(' ')[0]
         end
       end
     end
