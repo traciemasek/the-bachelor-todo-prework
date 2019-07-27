@@ -14,7 +14,6 @@ def get_contestant_name(data, occupation)
       binding.pry
       return contestant_hash["name"]
     end
-    
   end
 end
 
