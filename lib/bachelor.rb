@@ -13,6 +13,7 @@ def get_contestant_name(data, occupation)
     hash.each do |details|
       if details["occupation"] == occupation
         return details["name"]
+      end
     end
   end
 end
