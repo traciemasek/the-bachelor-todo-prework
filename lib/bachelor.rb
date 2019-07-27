@@ -26,9 +26,8 @@ def count_contestants_by_hometown(data, hometown)
         hometown_count += 1 
       end
     end
-    return hometown_count
   end
-  
+   return hometown_count
 end
 
 def get_occupation(data, hometown)
