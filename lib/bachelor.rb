@@ -34,7 +34,7 @@ def get_occupation(data, hometown)
   data.each do |season, hash|
     hash.each do |details|
       if details["hometown"] == hometown
-        return details["name"]
+        return details["occupation"]
       end
     end
   end
