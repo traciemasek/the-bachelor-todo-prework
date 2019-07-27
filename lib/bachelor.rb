@@ -6,7 +6,7 @@ def get_first_name_of_season_winner(data, season)
       if detail == "Winner"
     binding.pry
       detail["name"].split(" ")[0]
-    end
+      end
     end
   end
 end
