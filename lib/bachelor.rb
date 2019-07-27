@@ -42,12 +42,8 @@ end
 
 def get_average_age_for_season(data, season)
   ages = []
-  data.each do |season, hash|
-    hash.each do |details|
-      if details["hometown"] == hometown
-        return details["occupation"]
-      end
-    end
+  data[season].each do |hash|
+    ages << hash["age"]
   end
   return ages.sum / ages.length
 end
